@@ -10,6 +10,7 @@
            x:Name="lbl"
            HorizontalOptions="Center" />
         <Button x:Name="update" 
+                BackgroundColor="Red"
             Text="Update"
             />
     </StackLayout>
