@@ -6,7 +6,7 @@ namespace POC_BuildScript
 {
     public class Util
     {
-        public const string key = "test";
+        public const string key = "Test";
         public static Endpoint endpoint = Endpoint.FirstEndpoint;
     }
 

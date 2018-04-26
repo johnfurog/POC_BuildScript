@@ -10,7 +10,7 @@ if [ -e "$APP_CONSTANT_FILE" ]
 then
 
 	echo "Updating key to $ENDPOINT in AppConstant.cs"
-    sed -i '' 's/endpoint = [a-z:./]*;/endpoint = '$ENDPOINT';/' $APP_CONSTANT_FILE
+    sed -i '' 'sendpoint = [a-zA-Z0-9.]*endpoint = '$ENDPOINT'' $APP_CONSTANT_FILE
 
     echo "Updating key to $APP_KEY in AppConstant.cs"
     sed -i '' 's#key = "[a-z:./]*"#key = "'$APP_KEY'"#' $APP_CONSTANT_FILE
