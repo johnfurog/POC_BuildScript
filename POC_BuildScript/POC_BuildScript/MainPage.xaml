@@ -8,5 +8,7 @@
            VerticalOptions="Center" 
            x:Name="lbl"
            HorizontalOptions="Center" />
-
+    <Button x:Name="update" 
+            Text="Update"
+            />
 </ContentPage>

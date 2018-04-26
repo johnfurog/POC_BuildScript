@@ -13,7 +13,14 @@ namespace POC_BuildScript
 		{
 			InitializeComponent();
 
-            lbl.Text = Util.key;
+
+            update.Clicked += Update_Clicked;
 		}
-	}
+
+        private void Update_Clicked(object sender, EventArgs e)
+        {
+            lbl.Text = Util.key;
+
+        }
+    }
 }
