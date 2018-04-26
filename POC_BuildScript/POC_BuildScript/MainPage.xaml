@@ -9,10 +9,10 @@
            VerticalOptions="Center" 
            x:Name="lbl"
            HorizontalOptions="Center" />
-        <!--<Button x:Name="update" 
+        <Button x:Name="btnUpdate" 
                 BackgroundColor="Red"
             Text="Update"
-            />-->
+            />
     </StackLayout>
 
 </ContentPage>

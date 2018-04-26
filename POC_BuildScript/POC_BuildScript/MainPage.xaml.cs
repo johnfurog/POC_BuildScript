@@ -14,8 +14,8 @@ namespace POC_BuildScript
 			InitializeComponent();
 
 
-            //update.Clicked += Update_Clicked;
-		}
+            btnUpdate.Clicked += Update_Clicked;
+        }
 
         private void Update_Clicked(object sender, EventArgs e)
         {
