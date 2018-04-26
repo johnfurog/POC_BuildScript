@@ -19,7 +19,7 @@ namespace POC_BuildScript
 
         private void Update_Clicked(object sender, EventArgs e)
         {
-            lbl.Text = Util.key;
+            lbl.Text = Util.endpoint.ToString();
 
         }
     }
